@@ -1,0 +1,27 @@
+{
+  "name": "kubernetes-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch index.js",
+    "start": "node index.js",
+    "deploy": "sh deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ga1ib/kubernetes-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "types": "module",
+  "bugs": {
+    "url": "https://github.com/ga1ib/kubernetes-project/issues"
+  },
+  "homepage": "https://github.com/ga1ib/kubernetes-project#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
